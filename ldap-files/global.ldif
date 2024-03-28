@@ -1,0 +1,14 @@
+dn: dc=global,dc=nsm,dc=in
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: global nsm in
+dc: global
+
+dn: ou=Group,dc=global,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: Group
+
+dn: ou=CDAC,dc=global,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: CDAC

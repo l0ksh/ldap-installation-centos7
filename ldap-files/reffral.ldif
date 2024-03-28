@@ -1,0 +1,5 @@
+dn: dc=global,dc=nsm,dc=in
+objectClass: referral
+objectClass: extensibleObject
+dc: global
+ref: ldap://10.0.10.7/dc=global,dc=nsm,dc=in

@@ -1,0 +1,17 @@
+dn: uid=rahul,ou=CDAC,dc=smriti,dc=nsm,dc=in
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Rahul
+sn: Kumar
+userPassword: {SSHA}h/l9+gG3o2U/0HCLzFvwbK4qzVM2mlsK
+loginShell: /bin/bash
+uidNumber: 1007
+gidNumber: 1007
+homeDirectory: /home/rahul
+
+dn: cn=rahul,ou=Group,dc=smriti,dc=nsm,dc=in
+objectClass: posixGroup
+cn: rahul 
+gidNumber: 1006
+memberUid: rahul

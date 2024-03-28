@@ -1,0 +1,17 @@
+dn: uid=rahul,ou=CDAC,dc=global,dc=nsm,dc=in
+objectClass: top
+objectClass: account
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: rahul
+uid: rahul
+uidNumber: 9988
+gidNumber: 9988
+homeDirectory: /home/rahul
+loginShell: /bin/bash
+gecos: LDAP Replication Test User
+userPassword: {crypt}x
+shadowLastChange: 17058
+shadowMin: 0
+shadowMax: 99999
+shadowWarning: 7

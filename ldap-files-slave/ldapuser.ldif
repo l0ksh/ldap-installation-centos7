@@ -1,0 +1,17 @@
+dn: uid=aman,ou=CDAC,dc=global,dc=nsm,dc=in
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Aman
+sn: Kumar
+userPassword: {SSHA}h/l9+gG3o2U/0HCLzFvwbK4qzVM2mlsK
+loginShell: /bin/bash
+uidNumber: 1006
+gidNumber: 1006
+homeDirectory: /home/aman
+
+dn: cn=aman,ou=Group,dc=global,dc=nsm,dc=in
+objectClass: posixGroup
+cn: aman 
+gidNumber: 1006
+memberUid: aman

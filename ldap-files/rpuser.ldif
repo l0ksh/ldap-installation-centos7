@@ -1,0 +1,6 @@
+dn: uid=rpuser,dc=nsm,dc=in
+objectClass: simpleSecurityObject
+objectclass: account
+uid: rpuser
+description: Replication  User
+userPassword: root1234

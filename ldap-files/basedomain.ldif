@@ -1,0 +1,47 @@
+dn: dc=nsm,dc=in
+dc: nsm
+objectClass: top
+objectClass: domain
+
+dn: dc=ananta,dc=nsm,dc=in
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: ananta nsm in
+dc: ananta
+
+dn: dc=smriti,dc=nsm,dc=in
+objectClass: top
+objectClass: dcObject
+objectclass: organization
+o: smriti nsm in
+dc: smriti
+
+dn: cn=Manager,dc=nsm,dc=in
+objectClass: organizationalRole
+cn: Manager
+description: Directory Manager
+
+dn: ou=People,dc=ananta,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=ananta,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: Group
+
+dn: ou=CDAC,dc=ananta,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: CDAC
+
+dn: ou=People,dc=smriti,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Group,dc=smriti,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: Group
+
+dn: ou=CDAC,dc=smriti,dc=nsm,dc=in
+objectClass: organizationalUnit
+ou: CDAC
